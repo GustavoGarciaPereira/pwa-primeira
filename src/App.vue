@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Minha primeira aplicação pwa usando vuejs</h1>
+    <p>é so um teste</p>
+    <img src="https://cdn.pixabay.com/photo/2020/03/23/08/45/cat-4959941__340.jpg" alt="gato">
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    
+    
   },
     created() {
     if (this.$workbox) {
@@ -38,5 +40,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img{
+  border-radius: 10px;
 }
 </style>
